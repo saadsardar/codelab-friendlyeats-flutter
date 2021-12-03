@@ -30,6 +30,7 @@ class RestaurantCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(restaurant.photo);
     return Card(
         child: InkWell(
       onTap: () => _onPressed(restaurant.id),
