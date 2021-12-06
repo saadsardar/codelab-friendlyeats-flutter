@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "friendlyeats",
+    "public": "build/web",
     "ignore": [
       "firebase.json",
       "**/.*",
